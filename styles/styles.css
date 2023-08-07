@@ -40,9 +40,10 @@ ul:hover a:hover {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;
-    font-size: 1rem;
+    justify-content: flex-start;
+    font-size: 1.29rem;
     align-items: center;
+    margin-left: -8%; 
   }
   
   ul li {
@@ -65,12 +66,7 @@ body {
   background: linear-gradient(rgba(28, 83, 2, 0.915), rgba(28, 83, 2, 0.915));
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway';
   text-align: center; /* Define si va estar a la derecha, al medio, a la izquiera y justificado */
 }
@@ -208,6 +204,9 @@ h6 {
   margin-top:5rem;
 }
 
+.mb-6 {
+  font-size: 125%;
+}
 
 .mb-6-caja {
   font-size: 150%;
@@ -220,7 +219,7 @@ h6 {
   }
 
   .mb-6 {
-    font-size: 95%;
+    font-size: 115%;
   }
 
   .mb-0 {
@@ -289,6 +288,11 @@ h6 {
   justify-content: center;
 }
 
+
+#mainNav .navbar-nav {
+  flex-direction: row;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(0, 0, 0, 0.7);
   font-weight: 1000; /* Define si es negrita o normal de la letra */
@@ -316,6 +320,11 @@ h6 {
     align-items: center;
     display: flex;
     justify-content: center;
+  }
+
+  #mainNav .navbar-nav {
+    flex-direction: row;
+    width: 120%;
   }
 }
 
@@ -347,6 +356,7 @@ h6 {
 .intro {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .intro-caja {
@@ -377,8 +387,13 @@ h6 {
 
 /* Para modificar la imagen */
 @media (max-width: 992px) {
+  .intro {
+    display: flex;
+    justify-content: center;
+  }
+
   .intro .intro-img {
-    width: 70%; /* ancho */
+    width: 85%; /* ancho */
     height: 100%;
   }
   .intro .intro-text {
@@ -386,7 +401,7 @@ h6 {
     background-color: rgba(24, 64, 8); /* Define el color del fondo */
     color: cornsilk; /* Define el color del texto de abajo */
     position: relative;
-    height: 300px; /* alto del recuadro verde el título y subtítulo */
+    height: 350px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro .intro-text .intro-button {
     width: 100%; /* ancho */
