@@ -283,19 +283,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mb-6 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .mb-6-caja {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .mb-6-foto {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .mb-6-nos {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 }
 
 .mb-6-relato {
@@ -344,9 +344,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .section-heading-caja .section-heading-lower-caja {
-    margin-top: -70%;
+    margin-top: -60%;
     display: block;
-    font-size: 1.8rem; /* Define el tamaño de la letra */
+    font-size: 2rem; /* Define el tamaño de la letra */
     font-weight: 800; /* Define si es negrita o normal de la letra */
   }
 
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   .section-heading-foto .section-heading-lower-foto {
     margin-top: -50%;
     display: block;
-    font-size: 1.8rem; /* Define el tamaño de la letra */
+    font-size: 2rem; /* Define el tamaño de la letra */
     font-weight: 800; /* Define si es negrita o normal de la letra */
   }
 
@@ -410,7 +410,8 @@ h1, h2, h3, h4, h5, h6 {
   .section-heading-relato .section-heading-lower-relato {
     margin-top: -60%;
     display: block;
-    font-size: 2.2rem; /* Define el tamaño de la letra */
+    margin-left: -1rem;
+    font-size: 2.3rem; /* Define el tamaño de la letra */
     font-weight: 800; /* Define si es negrita o normal de la letra */
   }
 
@@ -423,12 +424,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .mb-6-caja {
-    font-size: 112%;
-    margin-top: -5%;
+    font-size: 1.5rem;
+    margin-top: -4%;
   }
 
   .mb-6-foto {
-    font-size: 1.31rem;
+    font-size: 1.5rem;
     margin-top: -5%;
   }
 
@@ -438,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .mb-6-relato {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     margin-top: 0.2rem;
   }
 }
@@ -552,6 +553,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%;
 }
 
+iframe {
+  width: 90rem;
+  height: 25rem;
+}
+
 @media (min-width: 400px) {
   .intro-img{
    width: 80%;
@@ -572,12 +578,13 @@ h1, h2, h3, h4, h5, h6 {
  }
 
  .intro-img-foto{
-  width: 50%;
+  width: 40%;
  }
 
  .intro-text-foto {
   background-color: rgba(24, 64, 8);
   color: cornsilk; /* Define el color del texto de abajo */
+  width: 35rem;
  }
 
  .intro-img-nos{
@@ -632,7 +639,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(24, 64, 8); /* Define el color del fondo */
     color: cornsilk; /* Define el color del texto de abajo */
     position: relative;
-    height: 300px; /* alto del recuadro verde el título y subtítulo */
+    width: 450px;
+    height: 400px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro-caja .intro-text-caja .intro-button-caja {
     width: 100%; /* ancho */
@@ -685,8 +693,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(24, 64, 8); /* Define el color del fondo */
     color: cornsilk; /* Define el color del texto de abajo */
     position: relative;
-    width: 460px;
-    height: 360px; /* alto del recuadro verde el título y subtítulo */
+    width: 420px;
+    height: 380px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro-relato .intro-text-relato .intro-button-relato {
     width: 100%; /* ancho */
@@ -745,6 +753,11 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  iframe {
+    width: 21rem;
+    height: 19rem;
   }
 }
 
