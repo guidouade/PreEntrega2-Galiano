@@ -34,16 +34,17 @@ ul:hover a:hover {
     color: greenyellow;
     text-transform: none;
     transition: 0.3s ease;
+    margin-top: 1.2rem;
   }
   
   ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: flex-start;
-    font-size: 1.29rem;
+    justify-content: center;
+    font-size: 1.5rem;
     align-items: center;
-    margin-left: -8%; 
+    margin-left: -5rem;
   }
   
   ul li {
@@ -309,22 +310,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .mb-6 {
-    font-size: 1.3rem;
+    font-size: 1.45rem;
   }
 
   .mb-0 {
-    font-size: 90%;
+    font-size: 1.6rem;
   }
 
   .section-heading .section-heading-lower {
     display: block;
-    font-size: 2.2rem; /* Define el tamaño de la letra */
+    font-size: 2.4rem; /* Define el tamaño de la letra */
     font-weight: 800; /* Define si es negrita o normal de la letra */
   }
 
   .section-heading .section-heading-upper {
     display: block;
-    font-size: 1.2rem; /* Define el tamaño de la letra */
+    font-size: 1.4rem; /* Define el tamaño de la letra */
     font-weight: 800; /* Define si es negrita o normal de la letra */
     padding-bottom: 0.5rem;
   }
@@ -411,6 +412,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -60%;
     display: block;
     margin-left: -1rem;
+    margin-top: -7rem;
     font-size: 2.3rem; /* Define el tamaño de la letra */
     font-weight: 800; /* Define si es negrita o normal de la letra */
   }
@@ -424,28 +426,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .mb-6-caja {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-top: -4%;
   }
 
   .mb-6-foto {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-top: -5%;
   }
 
   .mb-6-nos {
-    font-size: 120%;
+    font-size: 1.7rem;
     margin-top: -1rem;
   }
 
   .mb-6-relato {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-top: 0.2rem;
   }
-}
-
-.bg-faded {
-  background-color: rgba(161, 156, 156, 0.85); /* Define el color del fondo */
 }
 
 #mainNav {
@@ -485,15 +483,17 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #mainNav {
     font-family: 'Raleway';
+    background-color: rgba(82, 209, 0); /* Define el color del fondo */
     width: 100%;
-    height: 8%;
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    height: auto;
   }
 
   #mainNav .navbar-nav {
-    flex-direction: row;
+    flex-direction:column;
     width: 120%;
   }
 }
@@ -551,6 +551,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   width: 90%;
+  flex-direction: column;
 }
 
 iframe {
@@ -596,6 +597,13 @@ iframe {
   color: cornsilk; /* Define el color del texto de abajo */
  }
 
+ .intro-relato {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
  .intro-img-relato{
   width: 50%;
  }
@@ -613,16 +621,37 @@ iframe {
     justify-content: center;
   }
 
+  .intro-caja {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: -3rem;
+  }
+
+  .intro-foto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: -3rem;
+  }
+  
+  .intro-nos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: -3rem;
+  }
+
   .intro .intro-img {
-    width: 85%; /* ancho */
-    height: 100%;
+    width: 80%; /* ancho */
+    height: 0%;
   }
   .intro .intro-text {
     margin-left: 10px;
     background-color: rgba(24, 64, 8); /* Define el color del fondo */
     color: cornsilk; /* Define el color del texto de abajo */
     position: relative;
-    height: 400px; /* alto del recuadro verde el título y subtítulo */
+    height: 420px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro .intro-text .intro-button {
     width: 100%; /* ancho */
@@ -631,7 +660,7 @@ iframe {
     bottom: -2rem;
   }
   .intro-caja .intro-img-caja {
-    width: 56%; /* ancho */
+    width: 50%; /* ancho */
     height: 50%;
   }
   .intro-caja .intro-text-caja {
@@ -639,7 +668,7 @@ iframe {
     background-color: rgba(24, 64, 8); /* Define el color del fondo */
     color: cornsilk; /* Define el color del texto de abajo */
     position: relative;
-    width: 450px;
+    width: 480px;
     height: 400px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro-caja .intro-text-caja .intro-button-caja {
@@ -658,7 +687,7 @@ iframe {
     background-color: rgba(24, 64, 8); /* Define el color del fondo */
     color: cornsilk; /* Define el color del texto de abajo */
     position: relative;
-    width: 460px;
+    width: 500px;
     height: 360px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro-foto .intro-text-foto .intro-button-foto {
@@ -693,7 +722,7 @@ iframe {
     background-color: rgba(24, 64, 8); /* Define el color del fondo */
     color: cornsilk; /* Define el color del texto de abajo */
     position: relative;
-    width: 420px;
+    width: 520px;
     height: 380px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro-relato .intro-text-relato .intro-button-relato {
@@ -746,7 +775,7 @@ iframe {
     position: relative;
     padding: 4rem;
     margin: 2rem; /* Separación entre el borde y el afuera de la caja. Es parte del espacio externo. */
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: 0.5rem;
     background-color: rgb(1, 78, 9); /* Define el color del fondo */
     color: cornsilk;
@@ -756,8 +785,8 @@ iframe {
   }
 
   iframe {
-    width: 21rem;
-    height: 19rem;
+    width: 33rem;
+    height: 20rem;
   }
 }
 
@@ -781,7 +810,6 @@ iframe {
    display: flex;
    align-items: center;
    justify-content: center;
-   font-size: 150%;
 }
 
 @media (max-width: 992px) {
@@ -793,7 +821,10 @@ iframe {
    display: flex;
    align-items: center;
    justify-content: center;
-   font-size: 150%;
+  }
+
+  .footer a {
+    font-size: 120%;
   }
 }
 
