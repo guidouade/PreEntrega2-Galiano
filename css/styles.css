@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     margin-left: -1rem;
     margin-top: -7rem;
-    font-size: 2.3rem; /* Define el tamaño de la letra */
+    font-size: 2.4rem; /* Define el tamaño de la letra */
     font-weight: 800; /* Define si es negrita o normal de la letra */
   }
   .section-heading-relato .section-heading-under-relato {
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .mb-6-relato {
     font-size: 1.9rem;
-    margin-top: 0.2rem;
+    margin-top: -0.8rem;
   }
 }
 #mainNav {
@@ -612,7 +612,7 @@ iframe {
     margin-left: -3rem;
   }
   .intro-caja .intro-img-caja {
-    width: 50%; /* ancho */
+    width: 55%; /* ancho */
     height: 50%;
   }
   .intro-caja .intro-text-caja {
@@ -674,6 +674,25 @@ iframe {
     height: 290px; /* alto del recuadro verde el título y subtítulo */
   }
   .intro-nos .intro-text-nos .intro-button-nos {
+    width: 100%; /* ancho */
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+  .intro-relato .intro-img-relato {
+    width: 21rem; /* ancho */
+  }
+  .intro-relato .intro-text-relato {
+    margin-left: 10px;
+    margin-top: 1px;
+    background-color: rgb(24, 64, 8); /* Define el color del fondo */
+    color: cornsilk; /* Define el color del texto de abajo */
+    position: relative;
+    font-size: 1.1rem;
+    width: 580px;
+    height: 320px; /* alto del recuadro verde el título y subtítulo */
+  }
+  .intro-relato .intro-text-nos .intro-button-relato {
     width: 100%; /* ancho */
     left: 0;
     position: absolute;
